@@ -1,0 +1,173 @@
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flight-schedule h2 {
+    display: flex;
+    color: #165b33; 
+    font-family: 'Josefin Sans', sans-serif;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em; 
+}
+
+.goblin-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px; /* Lielāks izmērs datoriem */
+    height: 120px;
+}
+/* Kad ekrāna platums ir mazāks par 600px (piemēram, mobilajos telefonos) */
+@media (max-width: 600px) {
+    .goblin-image {
+        width: 100px; /* Mazāks izmērs mobilajiem telefoniem */
+        height: 60px;
+    }
+}
+
+/* @media (max-width: 600px) {
+    .flight-schedule h2 {
+        display: flex;
+        color: #165b33; 
+        font-family: 'Josefin Sans', sans-serif;
+        top: 0;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em; 
+    }
+}
+
+@media (max-width: 600px) {
+    .lidojums {
+        border: 2px solid orange;
+        color: aliceblue;
+        margin: 25px;
+        font-family: 'Josefin Sans', sans-serif;
+        align-items: center;
+        justify-content: center;
+        width: 500px;
+    }
+} */
+
+p{
+    position: absolute;
+    color: #ffffff ;
+    font-family: 'Josefin Sans', sans-serif;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.lidojums{
+    border: 2px solid #f8b229 ;
+    color: #ffffff ;
+    margin: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+        align-items: center;
+        justify-content: center;
+    width: 1000px;
+}
+
+.orangeBorder {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flightDuration {
+    order: -1; /* This will place flightDuration at the top */
+}
+
+.flightNumber {
+    order: -1; /* This will place flightNumber below flightDuration */
+}
+
+.origin {
+    align-self: flex-start; /* This will align origin to the left */
+    
+}
+
+.destination {
+    align-self: flex-end; /* This will align destination to the right */
+}
+
+.departureDateTime{
+    align-self: flex-start; /* This will align origin to the left */
+}
+
+.arrivalDateTime {
+    align-self: flex-end; /* This will align destination to the right */
+}
+
+.plane-departure {
+    position: absolute;
+    width: 50px; /* Lielāks izmērs datoriem */
+    height: 50px;
+    background-size: cover;
+    align-self: flex-start; /* This will align origin to the left */
+    filter: invert(1); /* This will change the color to white */
+}
+
+.arrival {
+    position: absolute;
+    width: 50px; /* Lielāks izmērs datoriem */
+    height: 50px;
+    background-size: cover;
+    align-self: flex-end; /* This will align destination to the right */
+    filter: invert(1); /* This will change the color to white */
+}
+
+
+.centeredBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 500px;
+    background-color: #e94040 ;
+
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #bb2528 ;
+}
+.centrs {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* novieto saturu lapas augšdaļā */
+    height: 100vh; /* vai jebkuru citu vērtību, kas atbilst jūsu vajadzībām */
+    padding-top: 160px; /* pielāgojiet šo vērtību, lai novietotu tekstu tālāk no lapas augšas */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
